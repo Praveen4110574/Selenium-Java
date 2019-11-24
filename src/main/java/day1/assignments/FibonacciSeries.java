@@ -1,7 +1,7 @@
 package day1.assignments;
 
 public class FibonacciSeries {
-	
+
 	/*
 	 * Goal: To find Fibonacci Series for a given range
 	 * 
@@ -18,7 +18,7 @@ public class FibonacciSeries {
 	 * 3) 
 	 * 
 	 */
-	
+
 	public static void main(String[] args) {
 		System.out.println("The Fibonacci series for the first 8 numbers is: ");
 		// initialize 3 int variables (Tip: range & firstNum, secNum in the series)
@@ -29,17 +29,17 @@ public class FibonacciSeries {
 			firstNum=secNum;
 			secNum=sum;
 			System.out.println(sum);
-			
+
 		}
-			// Print first number 
-			
-			// add first and second number
-			
-			// Assign second number to the first number
-			
-			// Assign sum to the second number
-			
-		
+		// Print first number 
+
+		// add first and second number
+
+		// Assign second number to the first number
+
+		// Assign sum to the second number
+
+
 
 	}
 
