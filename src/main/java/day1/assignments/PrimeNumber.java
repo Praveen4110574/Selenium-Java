@@ -23,7 +23,7 @@ public class PrimeNumber {
 	public static void main(String[] args) {
 
 		// Declare an int Input and assign a value
-		int num=12;
+		int num=4;
 		// Declare a boolean input as flag
 		boolean flag= false;
 		// Iterate from 1 to half of the input

@@ -12,18 +12,22 @@ public class PrintDuplicates {
 		Arrays.sort(data);
 
 		for(int i=0;i< data.length-1;i++) {
-			if(data[i]==data[i+1]) {
+			if(data[i+1]==data[i]) {
+
 				System.out.println(data[i+1]+" is a duplicate element");
 			}
-			 
-		}
+			//else
+			//System.out.println(data[i+1]+" is not a duplicate element");
 
-		/*
+		}
+	}
+
+	/*
 		 Pseudo Code:
 		 1) Arrange the array in ascending order
 		 2) Loop through each array item
 		 3) If the consecutive array items are same -> then print as duplicates
-		 */
+	 */
 
 
 
@@ -31,9 +35,9 @@ public class PrintDuplicates {
 
 
 
-		// Print the second largest number	
+	// Print the second largest number	
 
-
-	}
 
 }
+
+

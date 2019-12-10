@@ -1,4 +1,4 @@
-package day1.assignments;
+ package day1.assignments;
 
 public class ArmstrongNumber {
 	
