@@ -58,7 +58,7 @@ public class CreateLeadWithSelect {
 //print all the values present in ownership dropdown box 
 		Select dropdown5 = new Select(driver.findElementById("createLeadForm_ownershipEnumId"));
 		List<WebElement> options3 = dropdown5.getOptions();
-		int size2 = options3.size();
+		//int size2 = options3.size();
 		System.out.println("The values present in the ownership dropdown box is");
 		for (WebElement c : options3) {
 			System.out.println(c.getText());
